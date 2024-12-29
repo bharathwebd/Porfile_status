@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+.card-container{
+    background-color: rgb(10, 163, 76);
+    color: azure;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px -10px rgb(3, 5, 20);
+    padding-top: 30px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+
+h3{
+    margin: 10px 0px;
+}
+
+h4{
+    margin: 10px 0px;
+    text-transform:uppercase;
+}
+
+p{
+    margin: 10px 0px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.status{
+    background-color: rgb(16, 189, 132);
+    color: black;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 3px 7px;
+    position: absolute;
+    top: 140px;
+    left:240px
+}
+.online{
+    background-color: green;
+    color: azure;
+}
+.offline{
+    background-color: red;
+    color: azure;
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border: 3px solid rgb(123, 124, 151);
+    z-index: 5;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+.btn{
+    background-color: #1481ffdc;
+    color: azure;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: grab;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: burlywood;
+}
+
+.btn1{
+    background-color:darkcyan;
+    color: azure;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: grab;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn1:hover{
+    transform: scale(1.1);
+    background-color: burlywood;
+}
+.skills{
+    background-color: rgb(54, 208, 77);
+    text-align: left;
+}
+
+.skills ul {
+list-style-type: none;
+margin: 5px;
+padding: 3px;
+position: relative;
+left: 35px;
+bottom: 15px;
+}
+
+.skills ul li{
+    display: inline-block;
+    padding: 5px;
+    border: 3px solid rgb(247, 241, 241);
+    border-radius: 3px;
+    margin: 0px 3px 3px 0px;
+    font-size: 12px;
+}
+h2{
+    position: relative;
+    left: 10px;
+}
